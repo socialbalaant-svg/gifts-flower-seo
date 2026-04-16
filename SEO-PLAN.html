@@ -3,304 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✅ خطة SEO الشهرية | gifts-flower.com</title>
+    <title>خطة SEO الشهرية - Gifts Flower</title>
     <style>
         :root {
             --primary: #3c486c;
             --accent: #f0a500;
             --success: #4CAF50;
-            --warning: #FF9800;
             --light: #f5f5f5;
             --white: #ffffff;
-            --text: #333;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: var(--light);
-            color: var(--text);
-            line-height: 1.8;
-        }
-        .header {
-            background: linear-gradient(135deg, var(--primary), #5a6a8c);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
-        .updated {
-            background: var(--accent);
-            color: var(--primary);
-            padding: 8px 20px;
-            border-radius: 20px;
-            display: inline-block;
-            font-weight: bold;
-        }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--light); color: #333; line-height: 1.8; }
+        .header { background: linear-gradient(135deg, var(--primary), #5a6a8c); color: white; padding: 40px; text-align: center; }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
-        .section {
-            background: var(--white);
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-        }
-        .section h2 {
-            color: var(--primary);
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--light);
-        }
-        .month-card {
-            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-            border-radius: 12px;
-            padding: 20px;
-            margin: 15px 0;
-            border-right: 8px solid var(--primary);
-        }
-        .month-card.current {
-            border-right-color: var(--success);
-            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
-        }
-        .month-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        .month-title {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: var(--primary);
-        }
-        .month-card.current .month-title {
-            color: #2e7d32;
-        }
-        .month-badge {
-            background: var(--primary);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.85em;
-        }
-        .month-card.current .month-badge {
-            background: var(--success);
-        }
-        .keyword-focus {
-            background: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-        .keyword-focus h4 {
-            color: var(--primary);
-            margin-left: 10px;
-        }
-        .task-list {
-            list-style: none;
-            padding: 0;
-        }
-        .task-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid #eee;
-            display: flex;
-            align-items: center;
-        }
-        .task-list li:last-child {
-            border-bottom: none;
-        }
-        .task-list .check {
-            color: #ccc;
-            margin-left: 10px;
-            font-size: 1.2em;
-        }
-        .task-list .check.done {
-            color: var(--success);
-        }
-        .overall-progress {
-            background: linear-gradient(135deg, var(--primary), #5a6a8c);
-            color: white;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        .overall-progress h3 { margin-bottom: 15px; }
-        .progress-bar {
-            background: rgba(255,255,255,0.3);
-            height: 25px;
-            border-radius: 15px;
-            overflow: hidden;
-        }
-        .progress-fill {
-            background: var(--success);
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
-        .back-link {
-            display: inline-block;
-            background: var(--primary);
-            color: white;
-            padding: 10px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            margin-bottom: 20px;
-        }
-        .back-link:hover { background: #2c3a5c; }
-        .footer {
-            text-align: center;
-            padding: 30px;
-            color: #888;
-            margin-top: 30px;
-        }
-        .instruction {
-            background: #e3f2fd;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            border-right: 4px solid #1976D2;
-        }
-        .instruction h4 { color: #1565C0; margin-bottom: 5px; }
+        .card { background: var(--white); border-radius: 12px; padding: 25px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h2 { color: var(--primary); margin-bottom: 20px; border-bottom: 3px solid var(--accent); padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee; }
+        th { background: var(--primary); color: white; }
+        .done { background: #e8f5e9; color: #2e7d32; }
+        .planned { background: #fff8e1; color: #f57c00; }
+        .nav-tabs { background: var(--primary); padding: 10px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 20px; }
+        .nav-tabs a { color: white; text-decoration: none; padding: 8px 15px; border-radius: 5px; font-size: 0.9em; }
+        .nav-tabs a:hover { background: rgba(255,255,255,0.2); }
+        .back-link { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; margin-bottom: 20px; }
+        .stat-box { display: inline-block; padding: 15px 25px; border-radius: 10px; margin: 5px; text-align: center; }
+        .stat-box.blue { background: linear-gradient(135deg, var(--primary), #5a6a8c); color: white; }
+        .stat-box.green { background: linear-gradient(135deg, var(--success), #66bb6a); color: white; }
+        .footer { background: var(--primary); color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        @media (max-width: 768px) { .container { padding: 15px 10px; } }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>✅ خطة SEO الشهرية</h1>
-        <p>gifts-flower.com - خطة 6 أشهر</p>
-        <div class="updated">🎯 هدف أول شهر: "إصلاح الأخطاء التقنية"</div>
+        <h1>📋 خطة SEO الشهرية</h1>
+        <p>gifts-flower.com - متجر ورد وهدايا</p>
     </div>
-
     <div class="container">
-        <a href="index.html" class="back-link">← العودة للوحة SEO</a>
-
-        <div class="instruction">
-            <h4>💡 كيف تستخدم:</h4>
-            <p>عندما تنتهي من أي مهمة، أخبرني "هذه المهمة تم تنفيذها" وسأحدثها لك!</p>
+        <div class="nav-tabs">
+            <a href="SEO-DASHBOARD.html">🏠 الرئيسية</a>
+            <a href="TECHNICAL-AUDIT.html">🔍 التقني</a>
+            <a href="KEYWORDS.html">🔑 الكلمات</a>
+            <a href="GSC-REPORT.html">📊 GSC</a>
+            <a href="SEO-PLAN.html" class="active">📋 الخطة</a>
         </div>
-
-        <!-- Overall Progress -->
-        <div class="section">
-            <div class="overall-progress">
-                <h3>📊 التقدم الكلي</h3>
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 0%;">0%</div>
+        
+        <a href="index.html" class="back-link">← العودة للرئيسية</a>
+        
+        <div class="card">
+            <h2>✅ المهام المنجزة - أبريل 2026</h2>
+            <table>
+                <tr><th>المهمة</th><th>الحالة</th><th>التفاصيل</th></tr>
+                <tr><td>Bulk SEO Products</td><td class="done">✅ منجز</td><td>Template محدث</td></tr>
+                <tr><td>Bulk SEO Categories</td><td class="done">✅ منجز</td><td>Template محدث</td></tr>
+                <tr><td>Schema Markup</td><td class="done">✅ منجز</td><td>LocalBusiness + FAQPage عبر GTM</td></tr>
+                <tr><td>GSC Report</td><td class="done">✅ منجز</td><td>492 clicks, 48113 impressions</td></tr>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>📌 مهام شهر مايو 2026 (مخطط)</h2>
+            <table>
+                <tr><th>المهمة</th><th>الأولوية</th></tr>
+                <tr><td>تحسين ترتيب الكلمات فوق 10</td><td class="planned">🎯 عالية</td></tr>
+                <tr><td>Product Schema للمنتجات</td><td class="planned">🎯 عالية</td></tr>
+                <tr><td>بناء Backlinks</td><td class="planned">📌 متوسطة</td></tr>
+                <tr><td>متابعة GSC أسبوعياً</td><td class="planned">📌 متوسطة</td></tr>
+            </table>
+        </div>
+        
+        <div class="card">
+            <h2>📊 مؤشرات الأداء</h2>
+            <div style="text-align: center; margin-top: 15px;">
+                <div class="stat-box blue">
+                    <h3>492</h3>
+                    <p>النقرات الحالية</p>
                 </div>
-                <p style="margin-top: 10px; opacity: 0.9;">الشهر الحالي: أبريل 2026</p>
+                <div class="stat-box blue">
+                    <h3>48,113</h3>
+                    <p>الظهور الحالية</p>
+                </div>
+                <div class="stat-box green">
+                    <h3>1.02%</h3>
+                    <p>CTR الحالي</p>
+                </div>
+                <div class="stat-box green">
+                    <h3>7.6</h3>
+                    <p>الترتيب المتوسط</p>
+                </div>
             </div>
         </div>
-
-        <!-- Month 1 - April -->
-        <div class="month-card current">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 1 - أبريل 2026</span>
-                <span class="month-badge">الشهر الحالي</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span>إصلاح الأخطاء التقنية الأساسية</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. إضافة Meta Description للصفحة الرئيسية</li>
-                <li><span class="check">☐</span> 2. تحسين Title الصفحة الرئيسية (إضافة كلمات: توصيل هدايا مكة، توصيل هدايا جدة)</li>
-                <li><span class="check">☐</span> 3. إضافة H2 Tags مع Keywords</li>
-                <li><span class="check">☐</span> 4. <strong>تحسين Alt Text للصور</strong> ← ✅ تم (519 منتج على سلة)</li>
-            </ul>
+        
+        <div class="card">
+            <h2>🎯 الهدف للشهر القادم</h2>
+            <table>
+                <tr><th>المقياس</th><th>الحالي</th><th>الهدف</th></tr>
+                <tr><td>النقرات</td><td>492</td><td>600+</td></tr>
+                <tr><td>الظهور</td><td>48,113</td><td>60,000+</td></tr>
+                <tr><td>CTR</td><td>1.02%</td><td>2%+</td></tr>
+                <tr><td>الترتيب المتوسط</td><td>7.6</td><td>&lt;5</td></tr>
+            </table>
         </div>
-
-        <!-- Month 2 - May -->
-        <div class="month-card">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 2 - مايو 2026</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span><strong>"توصيل هدايا مكة"</strong> - keyword رئيسي</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. إنشاء صفحة مكة</li>
-                <li><span class="check">☐</span> 2. إضافة Schema Markup</li>
-                <li><span class="check">☐</span> 3. إنشاء Google Business Profile</li>
-                <li><span class="check">☐</span> 4. تحسين المحتوى بكلمة "توصيل هدايا مكة"</li>
-            </ul>
-        </div>
-
-        <!-- Month 3 - June -->
-        <div class="month-card">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 3 - يونيو 2026</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span><strong>"توصيل هدايا جدة"</strong> - keyword رئيسي</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. إنشاء صفحة جدة</li>
-                <li><span class="check">☐</span> 2. Bing Places</li>
-                <li><span class="check">☐</span> 3. تحسين سرعة الموقع</li>
-                <li><span class="check">☐</span> 4. بناء backlinks (Directories)</li>
-            </ul>
-        </div>
-
-        <!-- Month 4 - July -->
-        <div class="month-card">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 4 - يوليو 2026</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span><strong>"هدايا الطائف"</strong> - فرصة ذهبية</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. إنشاء صفحة الطائف</li>
-                <li><span class="check">☐</span> 2. إنشاء مدونة</li>
-                <li><span class="check">☐</span> 3. أول مقال: "أفضل محلات الورد في مكة"</li>
-                <li><span class="check">☐</span> 4. Social Media - البدء</li>
-            </ul>
-        </div>
-
-        <!-- Month 5 - August -->
-        <div class="month-card">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 5 - أغسطس 2026</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span><strong>"باقات ورد"</strong> - keyword منتجات</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. تحسين صفحات المنتجات</li>
-                <li><span class="check">☐</span> 2. إضافة مقالات للمدونة (3 مقالات)</li>
-                <li><span class="check">☐</span> 3. Guest posting</li>
-                <li><span class="check">☐</span> 4. Video content</li>
-            </ul>
-        </div>
-
-        <!-- Month 6 - September -->
-        <div class="month-card">
-            <div class="month-header">
-                <span class="month-title">🗓️ الشهر 6 - سبتمبر 2026</span>
-            </div>
-            <div class="keyword-focus">
-                <h4>🎯 التركيز:</h4>
-                <span><strong>"رمضان/عيد"</strong> - استعداد للموسم</span>
-            </div>
-            <ul class="task-list">
-                <li><span class="check">☐</span> 1. محتوى رمضاني</li>
-                <li><span class="check">☐</span> 2. تحليل النتائج</li>
-                <li><span class="check">☐</span> 3. تحسين الـ CTR</li>
-                <li><span class="check">☐</span> 4. التوسع</li>
-            </ul>
-        </div>
-
-
     </div>
-
     <div class="footer">
-        <p>Socialbalaant</p>
-        <p>الخطة: 6 أشهر | الميزانية: 500 ر.س/شهر</p>
+        <p>© 2026 - Socialbalaant - جميع الحقوق محفوظة</p>
+        <p>آخر تحديث: 16 أبريل 2026</p>
     </div>
 </body>
 </html>
