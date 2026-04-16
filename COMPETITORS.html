@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👥 المهمة #3: تحليل المنافسين | SEO Flowershop</title>
+    <style>
+        :root {
+            --primary: #3c486c;
+            --accent: #f0a500;
+            --success: #4CAF50;
+            --warning: #FF9800;
+            --danger: #f44336;
+            --light: #f5f5f5;
+            --white: #ffffff;
+            --text: #333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), #5a6a8c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
+        .status-badge {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        .section h3 { color: var(--primary); margin-top: 15px; }
+        .competitor-card {
+            background: var(--light);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border-right: 5px solid var(--primary);
+        }
+        .competitor-card h3 { color: var(--primary); margin-bottom: 10px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: right;
+            border-bottom: 1px solid #eee;
+        }
+        th { background: var(--primary); color: white; }
+        tr:hover { background: #f9f9f9; }
+        tr.highlight { background: #fff8e1; }
+        .swot-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .swot-item {
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .swot-strengths { background: #e8f5e9; border-right: 4px solid #4CAF50; }
+        .swot-weaknesses { background: #ffebee; border-right: 4px solid #f44336; }
+        .swot-opportunities { background: #e3f2fd; border-right: 4px solid #2196F3; }
+        .swot-threats { background: #fff3e0; border-right: 4px solid #FF9800; }
+        .back-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .back-link:hover { background: #2c3a5c; }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            margin-top: 30px;
+        }
+        .social-badge {
+            display: inline-block;
+            background: #e91e63;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>👥 المهمة #3: تحليل المنافسين</h1>
+        <p>gifts-flower.com - Competitor Analysis</p>
+        <div class="status-badge">✅ مكتمل - 2026-04-10</div>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← العودة للوحة التحكم</a>
+
+        <!-- Main Competitors -->
+        <div class="section">
+            <h2>🏆 المنافسون الرئيسيون (Regional)</h2>
+            
+            <div class="competitor-card">
+                <h3>🏆 #1: Floward (فلاورد)</h3>
+                <table>
+                    <tr><th>العنصر</th><th>التفاصيل</th></tr>
+                    <tr><td>الموقع</td><td><a href="https://floward.com" target="_blank">https://floward.com</a></td></tr>
+                    <tr><td>صفحة مكة</td><td><a href="https://floward.com/ar-sa/mecca" target="_blank">https://floward.com/ar-sa/mecca</a></td></tr>
+                    <tr><td>صفحة جدة</td><td><a href="https://floward.com/ar-sa/jeddah" target="_blank">https://floward.com/ar-sa/jeddah</a></td></tr>
+                    <tr><td>التحليل</td><td>أكبر منصة في المنطقة، تمويل 190 مليون دولار</td></tr>
+                </table>
+            </div>
+
+            <div class="competitor-card">
+                <h3>🥈 #2: FNP (ف matter)</h3>
+                <table>
+                    <tr><th>العنصر</th><th>التفاصيل</th></tr>
+                    <tr><td>الموقع</td><td><a href="https://fnp.sa" target="_blank">https://fnp.sa</a></td></tr>
+                    <tr><td>صفحة مكة</td><td><a href="https://www.fnp.sa/collections/flowers-mecca" target="_blank">https://www.fnp.sa/collections/flowers-mecca</a></td></tr>
+                    <tr><td>صفحة جدة</td><td><a href="https://www.fnp.sa/en/collections/flowers-jeddah" target="_blank">https://www.fnp.sa/en/collections/flowers-jeddah</a></td></tr>
+                </table>
+            </div>
+
+            <div class="competitor-card">
+                <h3>🥉 #3: Naseemsa (نسيم)</h3>
+                <table>
+                    <tr><th>العنصر</th><th>التفاصيل</th></tr>
+                    <tr><td>الموقع</td><td><a href="https://naseemsa.com" target="_blank">https://naseemsa.com</a></td></tr>
+                    <tr><td>صفحة مكة</td><td><a href="https://naseemsa.com/ar-sa/mecca" target="_blank">https://naseemsa.com/ar-sa/mecca</a></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Makkah Competitors -->
+        <div class="section">
+            <h2>🏪 المنافسون في مكة</h2>
+            <table>
+                <tr><th>#</th><th>المحل</th><th>الموقع</th><th>ملاحظات</th></tr>
+                <tr class="highlight">
+                    <td>1</td>
+                    <td><strong>هداية مكة ⭐</strong></td>
+                    <td><a href="https://mecca-gifts.com" target="_blank">mecca-gifts.com</a></td>
+                    <td><span class="social-badge">52K Instagram</span> توصيل مجاني</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>سعودي فلوريست</td>
+                    <td><a href="https://saudi.florist" target="_blank">saudi.florist</a></td>
+                    <td>تركيز على مكة والمدينة</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>أرابيان فلوريست</td>
+                    <td><a href="https://arabian-florist.com" target="_blank">arabian-florist.com</a></td>
+                    <td>خدمة عربية ممتازة</td>
+                </tr>
+                <tr class="highlight">
+                    <td>4</td>
+                    <td><strong>ساكورا</strong></td>
+                    <td><a href="https://ry.sakura-gifts.com" target="_blank">ry.sakura-gifts.com</a></td>
+                    <td><span class="social-badge">28K Instagram</span> مكة+جدة+الرياض</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>زوهور شوب</td>
+                    <td><a href="https://zoohoorshop.com" target="_blank">zoohoorshop.com</a></td>
+                    <td>يغطي مكة + جدة + الطائف + الرياض</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>فلور غالري</td>
+                    <td><a href="https://flowergallerry.com" target="_blank">flowergallerry.com</a></td>
+                    <td>3 مواقع! (Makkah, Jeddah, Taif)</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Jeddah Competitors -->
+        <div class="section">
+            <h2>🏪 المنافسون في جدة</h2>
+            <table>
+                <tr><th>#</th><th>المحل</th><th>الموقع</th><th>ملاحظات</th></tr>
+                <tr>
+                    <td>1</td>
+                    <td>فلاوري</td>
+                    <td><a href="https://flowery.sa" target="_blank">flowery.sa</a></td>
+                    <td>متخصص في جدة</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>دلع الورد</td>
+                    <td><a href="https://dalaa-alward.com" target="_blank">dalaa-alward.com</a></td>
+                    <td>متجر فاخر</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>غراس للزهور</td>
+                    <td><a href="https://grassflorist.com" target="_blank">grassflorist.com</a></td>
+                    <td>حضور قوي في جدة</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>لاش فلاورز</td>
+                    <td><a href="https://lushflowers.gifts" target="_blank">lushflowers.gifts</a></td>
+                    <td>تنسيقات فاخرة</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>روزيتا</td>
+                    <td><a href="https://rozitaa.com" target="_blank">rozitaa.com</a></td>
+                    <td>متجر ورد وهدايا</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>بلومين</td>
+                    <td><a href="https://blumenflowars.com" target="_blank">blumenflowars.com</a></td>
+                    <td>توصيل سريع</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SWOT Analysis -->
+        <div class="section">
+            <h2>📊 تحليل SWOT</h2>
+            <div class="swot-grid">
+                <div class="swot-item swot-strengths">
+                    <h3>✅ نقاط القوة</h3>
+                    <ul>
+                        <li>توصيل في مكة المكرمة</li>
+                        <li>أسعار منافسة</li>
+                        <li>خدمة توصيل مكة + جدة + الطائف</li>
+                        <li>منتجات مميزة (كيك كوري، شوكليت باتشي)</li>
+                    </ul>
+                </div>
+                <div class="swot-item swot-weaknesses">
+                    <h3>⚠️ نقاط الضعف</h3>
+                    <ul>
+                        <li>Brand جديد</li>
+                        <li>SEO جديد</li>
+                        <li>لا Google Business Profile</li>
+                        <li>Social media غير نشط</li>
+                    </ul>
+                </div>
+                <div class="swot-item swot-opportunities">
+                    <h3>🚀 الفرص</h3>
+                    <ul>
+                        <li>منافسة أقل في مكة/الطائف</li>
+                        <li>Local SEO - فرصة كبيرة</li>
+                        <li>الطائف - سوق ناشئ</li>
+                        <li>رمضان/عيد - مواسم ذهبية</li>
+                    </ul>
+                </div>
+                <div class="swot-item swot-threats">
+                    <h3>🔴 التهديدات</h3>
+                    <ul>
+                        <li>Floward - ميزانية ضخمة</li>
+                        <li>FNP - علامة معروفة</li>
+                        <li>هداية مكة - 52K followers</li>
+                        <li>أمازون السعودية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gaps -->
+        <div class="section">
+            <h2>💎 الفجوات التي يمكننا استغلالها</h2>
+            <table>
+                <tr><th>الفجوة</th><th>الفرصة</th><th>الأهمية</th></tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>هداية مكة عندها 52K - نحتاج أكثر</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Local SEO للطائف</td>
+                    <td>لا أحد يستهدفها بجدية</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Blog/محتوى</td>
+                    <td>معظم المنافسين بدون مدونة</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Video marketing</td>
+                    <td>معظم المنافسين ضعفاء في الفيديو</td>
+                    <td>⭐⭐</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Socialbalaant</p>
+        <p>التقرير: 10 أبريل 2026 | المهمة #3 من 8</p>
+    </div>
+</body>
+</html>

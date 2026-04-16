@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 المهمة #4: تحسين On-Page SEO | SEO Flowershop</title>
+    <style>
+        :root {
+            --primary: #3c486c;
+            --accent: #f0a500;
+            --success: #4CAF50;
+            --warning: #FF9800;
+            --danger: #f44336;
+            --light: #f5f5f5;
+            --white: #ffffff;
+            --text: #333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), #5a6a8c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
+        .status-badge {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        .section h3 { color: var(--primary); margin-top: 15px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #eee;
+        }
+        th { background: var(--primary); color: white; }
+        tr:hover { background: #f9f9f9; }
+        .code-block {
+            background: #1a1a2e;
+            color: #a5d6ff;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+        .recommendation {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-right: 4px solid #4CAF50;
+        }
+        .issue {
+            background: #ffebee;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-right: 4px solid #f44336;
+        }
+        .back-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .back-link:hover { background: #2c3a5c; }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📝 المهمة #4: تحسين On-Page SEO</h1>
+        <p>gifts-flower.com - On-Page Optimization</p>
+        <div class="status-badge">✅ مكتمل - 2026-04-10</div>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← العودة للوحة التحكم</a>
+
+        <!-- Title Analysis -->
+        <div class="section">
+            <h2>📝 تحليل Title</h2>
+            
+            <div class="issue">
+                <h3>❌ الحالي:</h3>
+                <p><code>محل ورد مكة - توصيل هدايا مكه - هدايا جدة - متجر فلاور</code></p>
+            </div>
+            
+            <div class="recommendation">
+                <h3>✅ المقترح:</h3>
+                <p><code>توصيل هدايا مكة وجدة | باقات ورد وشوكليت - متجر فلاور</code></p>
+            </div>
+            
+            <h3>المشاكل:</h3>
+            <ul>
+                <li>❌ keyword "توصيل هدايا مكة" غير موجود</li>
+                <li>❌ keyword "توصيل هدايا جدة" غير موجود</li>
+                <li>❌ keyword "توصيل هدايا مكة وجدة" غير موجود</li>
+            </ul>
+        </div>
+
+        <!-- Meta Description -->
+        <div class="section">
+            <h2>📋 Meta Description</h2>
+            
+            <div class="issue">
+                <h3>❌ الحالي:</h3>
+                <p>غير موجود</p>
+            </div>
+            
+            <div class="recommendation">
+                <h3>✅ المقترح:</h3>
+                <div class="code-block">&lt;meta name="description" content="متجر فلاور - أفضل محل ورد في مكة. توصيل هدايا مكة وجدة بنفس اليوم. باقات ورد طبيعية، شوكليت، كيك كوري. اطلب الآن!" /&gt;</div>
+            </div>
+        </div>
+
+        <!-- Headings -->
+        <div class="section">
+            <h2>📑 Headings (H1, H2)</h2>
+            
+            <h3>H1 الحالي:</h3>
+            <p><code>محل ورد مكة</code></p>
+            
+            <h3>H1 المقترح:</h3>
+            <p><code>توصيل هدايا مكة - محل ورد مكة</code></p>
+            
+            <h3>H2s المطلوب إضافتها:</h3>
+            <ul>
+                <li><code>&lt;h2&gt;توصيل هدايا مكة وجدة&lt;/h2&gt;</code></li>
+                <li><code>&lt;h2&gt;باقات ورد طبيعية للتهنئة والتخرج&lt;/h2&gt;</code></li>
+                <li><code>&lt;h2&gt;توصيل هدايا جدة - خدمة سريعة&lt;/h2&gt;</code></li>
+            </ul>
+        </div>
+
+        <!-- Images -->
+        <div class="section">
+            <h2>🖼️ تحليل الصور</h2>
+            
+            <div class="issue">
+                <h3>❌ المشاكل:</h3>
+                <ul>
+                    <li>صور بدون Alt text</li>
+                    <li>صور بدون names مفهومة</li>
+                    <li>حجم الصور قد يكون كبير</li>
+                </ul>
+            </div>
+            
+            <div class="recommendation">
+                <h3>✅ الحل:</h3>
+                <div class="code-block">&lt;!-- قبل --&gt;
+&lt;img src="/images/abc123.jpg"&gt;
+
+&lt;!-- بعد --&gt;
+&lt;img src="/images/bouquet-roses-makkah.jpg" alt="باقة ورد أحمر طبيعي للتوصيل في مكة"&gt;</div>
+            </div>
+        </div>
+
+        <!-- Schema Markup -->
+        <div class="section">
+            <h2>🏷️ Schema Markup</h2>
+            
+            <h3>البيانات المنظمة المطلوبة:</h3>
+            <div class="code-block">{
+  "@context": "https://schema.org",
+  "@type": "FlowerStore",
+  "name": "متجر فلاور",
+  "url": "https://gifts-flower.com",
+  "areaServed": [
+    {"@type": "City", "name": "مكة المكرمة"},
+    {"@type": "City", "name": "جدة"},
+    {"@type": "City", "name": "الطائف"}
+  ],
+  "priceRange": "$$",
+  "telephone": "+966-10-944-7521"
+}</div>
+        </div>
+
+        <!-- Speed -->
+        <div class="section">
+            <h2>⚡ سرعة الموقع</h2>
+            <p>النتيجة الحالية: <strong>7/10</strong></p>
+            
+            <h3>خطوات التحسين:</h3>
+            <ul>
+                <li>ضغط الصور (WebP)</li>
+                <li>Lazy loading للصور</li>
+                <li>تقليل CSS/JS غير المستخدم</li>
+                <li>CDN caching</li>
+            </ul>
+        </div>
+
+        <!-- Implementation Phases -->
+        <div class="section">
+            <h2>📋 خطوات التنفيذ</h2>
+            
+            <h3>المرحلة 1 (فوراً):</h3>
+            <ul>
+                <li>إضافة Meta Description للصفحة الرئيسية</li>
+                <li>تحسين Title</li>
+                <li>إضافة Schema Markup</li>
+            </ul>
+            
+            <h3>المرحلة 2 (هذا الأسبوع):</h3>
+            <ul>
+                <li>تحسين Alt text للصور</li>
+                <li>إضافة H2s مع keywords</li>
+                <li>تحسين Internal linking</li>
+            </ul>
+            
+            <h3>المرحلة 3 (قريباً):</h3>
+            <ul>
+                <li>تحسين سرعة الصور</li>
+                <li>إضافة Structured Data للمنتجات</li>
+                <li>تحسين URLs (إن أمكن)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Socialbalaant</p>
+        <p>التقرير: 10 أبريل 2026 | المهمة #4 من 8</p>
+    </div>
+</body>
+</html>

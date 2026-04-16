@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔑 المهمة #2: تحليل الكلمات المفتاحية | SEO Flowershop</title>
+    <style>
+        :root {
+            --primary: #3c486c;
+            --accent: #f0a500;
+            --success: #4CAF50;
+            --warning: #FF9800;
+            --danger: #f44336;
+            --light: #f5f5f5;
+            --white: #ffffff;
+            --text: #333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), #5a6a8c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
+        .status-badge {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #eee;
+        }
+        th { background: var(--primary); color: white; }
+        tr:hover { background: #f9f9f9; }
+        .score-card {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .score-high { background: #ffebee; color: #c62828; }
+        .score-medium { background: #fff3e0; color: #e65100; }
+        .score-low { background: #e8f5e9; color: #2e7d32; }
+        .opportunity-card {
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 10px 0;
+            border-right: 5px solid var(--success);
+        }
+        .opportunity-card h3 { color: #2e7d32; margin-bottom: 10px; }
+        .golden-keyword {
+            background: linear-gradient(135deg, #fff8e1, #ffecb3);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-right: 5px solid var(--accent);
+        }
+        .golden-keyword h4 { color: #f57c00; margin-bottom: 5px; }
+        .back-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .back-link:hover { background: #2c3a5c; }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            margin-top: 30px;
+        }
+        .phase {
+            background: var(--light);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .phase h4 { color: var(--primary); margin-bottom: 10px; }
+        .keyword-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .keyword-tag {
+            background: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔑 المهمة #2: تحليل الكلمات المفتاحية</h1>
+        <p>gifts-flower.com - Keyword Research</p>
+        <div class="status-badge">✅ مكتمل - 2026-04-10</div>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← العودة للوحة التحكم</a>
+
+        <!-- Golden Opportunities -->
+        <div class="section">
+            <h2>💎 أفضل الفرص (Keywords)</h2>
+            
+            <div class="golden-keyword">
+                <h4>⚠️ الطائف - فرصة ذهبية!</h4>
+                <p>توصيل هدايا الطائف - منافسة ضعيفة جداً - تحويل عالي</p>
+            </div>
+            
+            <div class="golden-keyword">
+                <h4>🔥 توصيل في نفس اليوم</h4>
+                <p>توصيل هدايا في نفس اليوم مكة - منافسة منخفضة جداً - تحويل عالي جداً</p>
+            </div>
+            
+            <div class="golden-keyword">
+                <h4>⭐ كيك كوري توصيل</h4>
+                <p>منتج مميز - منافسة منخفضة جداً - فرصة كبيرة</p>
+            </div>
+        </div>
+
+        <!-- Geographic Keywords -->
+        <div class="section">
+            <h2>📍 الكلمات الجغرافية</h2>
+            <table>
+                <tr><th>المدينة</th><th>الكلمة</th><th>الأولوية</th></tr>
+                <tr><td rowspan="5"><strong>مكة</strong></td><td>توصيل هدايا مكة</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>محل ورد مكة</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>توصيل ورد مكة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                <tr><td>هدايا مكة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                <tr><td>باقات ورد مكة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                
+                <tr><td rowspan="5"><strong>جدة</strong></td><td>توصيل هدايا جدة</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>محل ورد جدة</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>توصيل ورد جدة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                <tr><td>هدايا جدة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                <tr><td>باقات ورد جدة</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                
+                <tr style="background: #fff8e1;"><td rowspan="3"><strong>الطائف ⚠️</strong></td><td>توصيل هدايا الطائف</td><td><span class="score-card score-low">⭐⭐⭐ - ذهبية</span></td></tr>
+                <tr style="background: #fff8e1;"><td>محل ورد الطائف</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+                <tr style="background: #fff8e1;"><td>توصيل ورد الطائف</td><td><span class="score-card score-medium">⭐⭐</span></td></tr>
+            </table>
+        </div>
+
+        <!-- Product Keywords -->
+        <div class="section">
+            <h2>🛍️ كلمات المنتجات</h2>
+            <table>
+                <tr><th>المنتج</th><th>الكلمة المفتاحية</th><th>الأولوية</th></tr>
+                <tr><td rowspan="3">باقات الورد</td><td>باقات ورد طبيعية</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>باقة ورد جوري</td><td><span class="score-card score-low">⭐⭐</span></td></tr>
+                <tr><td>باقة ورد رومانسية</td><td><span class="score-card score-low">⭐⭐</span></td></tr>
+                <tr><td rowspan="3">الهدايا</td><td>هدايا نسائية</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>هدايا رجالية</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>هدايا تخرج</td><td><span class="score-card score-low">⭐⭐</span></td></tr>
+                <tr><td rowspan="3">منتجات مميزة</td><td>كيك كوري توصيل</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>شوكليت باتشي</td><td><span class="score-card score-low">⭐⭐</span></td></tr>
+                <tr><td>تنسيقات أكريليك</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+            </table>
+        </div>
+
+        <!-- Implementation Plan -->
+        <div class="section">
+            <h2>📋 خطة التنفيذ</h2>
+            
+            <div class="phase">
+                <h4>المرحلة 1 - الأولوية القصوى</h4>
+                <div class="keyword-list">
+                    <span class="keyword-tag">توصيل هدايا مكة</span>
+                    <span class="keyword-tag">توصيل هدايا جدة</span>
+                    <span class="keyword-tag">توصيل هدايا الطائف ⚠️</span>
+                    <span class="keyword-tag">باقات ورد مكة</span>
+                    <span class="keyword-tag">باقات ورد جدة</span>
+                </div>
+            </div>
+            
+            <div class="phase">
+                <h4>المرحلة 2 - أولوية عالية</h4>
+                <div class="keyword-list">
+                    <span class="keyword-tag">توصيل ورد مكة</span>
+                    <span class="keyword-tag">توصيل ورد جدة</span>
+                    <span class="keyword-tag">محل ورد مكة</span>
+                    <span class="keyword-tag">محل ورد جدة</span>
+                    <span class="keyword-tag">هدايا رمضانية</span>
+                </div>
+            </div>
+            
+            <div class="phase">
+                <h4>المرحلة 3 - متوسط</h4>
+                <div class="keyword-list">
+                    <span class="keyword-tag">باقات ورد طبيعية</span>
+                    <span class="keyword-tag">هدايا تخرج</span>
+                    <span class="keyword-tag">هدايا عيد ميلاد</span>
+                    <span class="keyword-tag">كيك كوري توصيل</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seasonal Keywords -->
+        <div class="section">
+            <h2>📅 الكلمات الموسمية</h2>
+            <table>
+                <tr><th>الموسم</th><th>الكلمات</th><th>الأولوية</th></tr>
+                <tr><td>رمضان/عيد</td><td>هدايا رمضانية، هدايا العيد، باقات العيد</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>عيد الحب</td><td>هدايا عيد الحب، باقات فلنتاين، ورد أحمر</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+                <tr><td>التخرج</td><td>هدايا تخرج، باقة تخرج جامعة، هدايا خريجين</td><td><span class="score-card score-low">⭐⭐⭐</span></td></tr>
+            </table>
+        </div>
+
+        <!-- Sample Meta -->
+        <div class="section">
+            <h2>✍️ نماذج Titles و Meta</h2>
+            <div class="opportunity-card">
+                <h3>Title للصفحة الرئيسية:</h3>
+                <p><strong>"توصيل هدايا مكة وجدة - باقات ورد وشوكليت | فلاور"</strong></p>
+            </div>
+            <div class="opportunity-card">
+                <h3>Meta Description:</h3>
+                <p><strong>"متجر فلاور - أفضل محل ورد في مكة. توصيل هدايا مكة وجدة بنفس اليوم. باقات ورد طبيعية، شوكليت، كيك كوري. اطلب الآن!"</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Socialbalaant</p>
+        <p>التقرير: 10 أبريل 2026 | المهمة #2 من 8</p>
+    </div>
+</body>
+</html>

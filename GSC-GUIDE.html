@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 المهمة #8: Google Search Console | SEO Flowershop</title>
+    <style>
+        :root {
+            --primary: #3c486c;
+            --accent: #f0a500;
+            --success: #4CAF50;
+            --light: #f5f5f5;
+            --white: #ffffff;
+            --text: #333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary), #5a6a8c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 10px; }
+        .status-badge {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        .section h3 { color: var(--primary); margin-top: 15px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #eee;
+        }
+        th { background: var(--primary); color: white; }
+        tr:hover { background: #f9f9f9; }
+        .step {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 10px;
+        }
+        .code-block {
+            background: #1a1a2e;
+            color: #a5d6ff;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+        .back-link {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 20px;
+        }
+        .back-link:hover { background: #2c3a5c; }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 المهمة #8: Google Search Console</h1>
+        <p>gifts-flower.com - دليل ربط الموقع</p>
+        <div class="status-badge">✅ مكتمل - 2026-04-10</div>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← العودة للوحة التحكم</a>
+
+        <!-- What is GSC -->
+        <div class="section">
+            <h2>❓ ما هو Google Search Console؟</h2>
+            <p>Google Search Console (GSC) هو أداة مجانية من Google تساعدك على:</p>
+            <ul>
+                <li>✅ معرفة كيف Google يرى موقعك</li>
+                <li>✅ مراقبة الأداء في البحث</li>
+                <li>✅ اكتشاف الأخطاء والمشكلات</li>
+                <li>✅ تقديم sitemap لـ Google</li>
+                <li>✅ طلب فهرسة صفحات جديدة</li>
+            </ul>
+        </div>
+
+        <!-- Setup Steps -->
+        <div class="section">
+            <h2>📋 خطوات إنشاء حساب GSC</h2>
+            
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>اذهب لـ:</strong>
+                <div class="code-block">https://search.google.com/search-console</div>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>سجّل الدخول</strong> بـ Google account
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>اختر "URL prefix":</strong>
+                <div class="code-block">https://gifts-flower.com</div>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>أضف كود التحقق:</strong>
+                <p>الطريقة الأسهل: Copy HTML tag وأضفه في <code>&lt;head&gt;</code> بموقعك</p>
+            </div>
+        </div>
+
+        <!-- Sitemap -->
+        <div class="section">
+            <h2>📄 تقديم Sitemap</h2>
+            <ol>
+                <li>اذهب لـ: <strong>Sitemaps</strong></li>
+                <li>أضف: <code>sitemap.xml</code></li>
+                <li>اضغط <strong>Submit</strong></li>
+            </ol>
+            <p>ملاحظة: sitemap موجود في: <code>https://gifts-flower.com/sitemap.xml</code></p>
+        </div>
+
+        <!-- Performance Report -->
+        <div class="section">
+            <h2>📊 تقرير Performance</h2>
+            <table>
+                <tr><th>المقياس</th><th>معناه</th><th>الهدف</th></tr>
+                <tr><td>Clicks</td><td>عدد النقرات من Google</td><td>↑ أعلى</td></tr>
+                <tr><td>Impressions</td><td>عدد مرات الظهور</td><td>↑ أعلى</td></tr>
+                <tr><td>CTR</td><td>نسبة النقر (Clicks/Impressions)</td><td>↑ أعلى (>2%)</td></tr>
+                <tr><td>Position</td><td>الترتيب المتوسط</td><td>↓ أقل (1-10 good)</td></tr>
+            </table>
+        </div>
+
+        <!-- Coverage -->
+        <div class="section">
+            <h2>📋 تقرير Coverage</h2>
+            <table>
+                <tr><th>الحالة</th><th>معنى</th></tr>
+                <tr><td style="color: #4CAF50;">✅ Valid</td><td>Google يقدر يفهرس الصفحة</td></tr>
+                <tr><td style="color: #FF9800;">⚠️ Valid with warnings</td><td>فيه مشكلة بسيطة</td></tr>
+                <tr><td style="color: #f44336;">❌ Error</td><td>Google ما يقدر يفهرس الصفحة</td></tr>
+            </table>
+            
+            <h3>الأخطاء الشائعة:</h3>
+            <ul>
+                <li><strong>404 Not Found:</strong> صفحة محذوفة أو رابط خاطئ</li>
+                <li><strong>Server Error (5xx):</strong> السيرفر ما يستجيب</li>
+                <li><strong>Page not indexed:</strong> Google ما فهرس الصفحة</li>
+            </ul>
+        </div>
+
+        <!-- URL Inspection -->
+        <div class="section">
+            <h2>🔍 URL Inspection Tool</h2>
+            <ol>
+                <li>اذهب لـ: <strong>URL Inspection</strong></li>
+                <li>أدخل الـ URL:
+                    <div class="code-block">https://gifts-flower.com/باقات-ورد</div>
+                </li>
+                <li>اضغط Enter</li>
+            </ol>
+            <p>можетеRequest Indexing:</p>
+            <ol>
+                <li>ادخل URL</li>
+                <li>اضغط "Request Indexing"</li>
+                <li>Google会用 robots crawling heuristics</li>
+            </ol>
+        </div>
+
+        <!-- Core Web Vitals -->
+        <div class="section">
+            <h2>📈 Core Web Vitals</h2>
+            <table>
+                <tr><th>المقياس</th><th>جيد</th><th>يحتاج تحسين</th><th>سيء</th></tr>
+                <tr><td>LCP (Loading)</td><td>&lt; 2.5s</td><td>2.5-4s</td><td>&gt; 4s</td></tr>
+                <tr><td>FID (Interactivity)</td><td>&lt; 100ms</td><td>100-300ms</td><td>&gt; 300ms</td></tr>
+                <tr><td>CLS (Stability)</td><td>&lt; 0.1</td><td>0.1-0.25</td><td>&gt; 0.25</td></tr>
+            </table>
+        </div>
+
+        <!-- Mobile -->
+        <div class="section">
+            <h2>📱 Mobile Usability</h2>
+            <p>检查:</p>
+            <ul>
+                <li><strong>Viewport:</strong> هل الموقع responsive؟</li>
+                <li><strong>Content width:</strong> هل المحتوى يناسب الجوال؟</li>
+                <li><strong>Tap targets:</strong> أزرار كبيرة بما يكفي؟</li>
+                <li><strong>Font size:</strong>文字 مقروء على الجوال؟</li>
+            </ul>
+        </div>
+
+        <!-- Weekly Checklist -->
+        <div class="section">
+            <h2>✅ Weekly Checklist</h2>
+            <ul>
+                <li>Check Performance report (clicks, CTR)</li>
+                <li>Check Coverage for errors</li>
+                <li>Check Core Web Vitals</li>
+                <li>Submit new pages</li>
+                <li>Check for manual actions</li>
+            </ul>
+        </div>
+
+        <!-- Getting Started -->
+        <div class="section">
+            <h2>🚀 خطوات البداية</h2>
+            <ol>
+                <li>روح لـ <a href="https://search.google.com/search-console" target="_blank">Google Search Console</a></li>
+                <li>أضف property: <code>https://gifts-flower.com</code></li>
+                <li>تحقق باستخدام HTML tag (أو راسل Salla support)</li>
+                <li>Submit sitemap: <code>sitemap.xml</code></li>
+                <li>Start monitoring weekly</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Socialbalaant</p>
+        <p>التقرير: 10 أبريل 2026 | المهمة #8 من 8 - جميع المهام مكتملة! 🎉</p>
+    </div>
+</body>
+</html>
