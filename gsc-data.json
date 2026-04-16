@@ -1,99 +1,103 @@
 {
   "lastUpdated": "2026-04-16",
-  "startDate": "2026-03-16",
-  "endDate": "2026-04-15",
-  "clicks": 155,
-  "impressions": 10952,
+  "startDate": "2026-03-18",
+  "endDate": "2026-04-14",
+  "clicks": 492,
+  "impressions": 48113,
+  "ctr": 1.02,
+  "position": 7.6,
+  "oldClicks": 144,
+  "oldImpressions": 10461,
   "queries": [
     {
       "query": "فلاور",
-      "clicks": 22,
-      "impressions": 2239,
-      "ctr": 0.98,
-      "position": 5.7
-    },
-    {
-      "query": "هدايا الطايف",
-      "clicks": 16,
-      "impressions": 239,
-      "ctr": 6.69,
+      "clicks": 20,
+      "impressions": 2161,
+      "ctr": 0.93,
       "position": 5.7
     },
     {
       "query": "ورد مكة",
-      "clicks": 16,
-      "impressions": 324,
-      "ctr": 4.94,
-      "position": 5.0
+      "clicks": 15,
+      "impressions": 282,
+      "ctr": 5.32,
+      "position": 4.8
+    },
+    {
+      "query": "هدايا الطايف",
+      "clicks": 14,
+      "impressions": 211,
+      "ctr": 6.64,
+      "position": 5.7
     },
     {
       "query": "متجر فلاور",
-      "clicks": 9,
-      "impressions": 60,
-      "ctr": 15.0,
-      "position": 2
+      "clicks": 8,
+      "impressions": 56,
+      "ctr": 14.29,
+      "position": 1.9
     },
     {
       "query": "توصيل ورد مكة",
       "clicks": 6,
-      "impressions": 205,
-      "ctr": 2.93,
-      "position": 7.8
-    },
-    {
-      "query": "هدايا مكة",
-      "clicks": 6,
-      "impressions": 119,
-      "ctr": 5.04,
-      "position": 11.5
+      "impressions": 195,
+      "ctr": 3.08,
+      "position": 7.6
     },
     {
       "query": "ورد مكه",
       "clicks": 5,
-      "impressions": 196,
-      "ctr": 2.55,
-      "position": 5.3
+      "impressions": 162,
+      "ctr": 3.09,
+      "position": 5.1
     },
     {
       "query": "محل ورد",
       "clicks": 4,
-      "impressions": 3517,
-      "ctr": 0.11,
-      "position": 6.9
+      "impressions": 3369,
+      "ctr": 0.12,
+      "position": 6.8
     },
     {
       "query": "محل ورد مكة",
       "clicks": 4,
-      "impressions": 420,
-      "ctr": 0.95,
-      "position": 3.4
+      "impressions": 392,
+      "ctr": 1.02,
+      "position": 3.2
     },
     {
-      "query": "هدايا مكة توصيل فوري",
+      "query": "هدايا مكة",
       "clicks": 4,
-      "impressions": 113,
-      "ctr": 3.54,
-      "position": 8.5
+      "impressions": 102,
+      "ctr": 3.92,
+      "position": 11.5
     },
     {
       "query": "فلور",
       "clicks": 3,
-      "impressions": 318,
-      "ctr": 0.94,
-      "position": 10.7
+      "impressions": 314,
+      "ctr": 0.96,
+      "position": 10.5
     },
     {
       "query": "متجر هدايا",
       "clicks": 3,
-      "impressions": 65,
-      "ctr": 4.62,
-      "position": 17.6
+      "impressions": 62,
+      "ctr": 4.84,
+      "position": 16.8
+    },
+    {
+      "query": "هدايا مكة توصيل فوري",
+      "clicks": 3,
+      "impressions": 99,
+      "ctr": 3.03,
+      "position": 8.6
     },
     {
       "query": "ورد وقهوة",
       "clicks": 3,
-      "impressions": 100,
-      "ctr": 3.0,
+      "impressions": 96,
+      "ctr": 3.12,
       "position": 8.8
     },
     {
@@ -106,30 +110,23 @@
     {
       "query": "بوكيه ورد ب ٣٠ ريال",
       "clicks": 2,
-      "impressions": 36,
-      "ctr": 5.56,
+      "impressions": 32,
+      "ctr": 6.25,
       "position": 4.0
-    },
-    {
-      "query": "توصيل هدايا مكة",
-      "clicks": 2,
-      "impressions": 101,
-      "ctr": 1.98,
-      "position": 11.4
     },
     {
       "query": "توصيل ورد",
       "clicks": 2,
-      "impressions": 180,
-      "ctr": 1.11,
+      "impressions": 177,
+      "ctr": 1.13,
       "position": 13.8
     },
     {
       "query": "توصيل ورد الطائف",
       "clicks": 2,
-      "impressions": 89,
-      "ctr": 2.25,
-      "position": 7.8
+      "impressions": 83,
+      "ctr": 2.41,
+      "position": 8
     },
     {
       "query": "متاجر هدايا في السعودية",
@@ -141,79 +138,65 @@
     {
       "query": "متجر ورد الطائف",
       "clicks": 2,
-      "impressions": 32,
-      "ctr": 6.25,
-      "position": 8.9
+      "impressions": 30,
+      "ctr": 6.67,
+      "position": 9
     },
     {
       "query": "متجر ورد مكة",
       "clicks": 2,
-      "impressions": 30,
-      "ctr": 6.67,
-      "position": 3.0
+      "impressions": 23,
+      "ctr": 8.7,
+      "position": 2.3
     },
     {
       "query": "محل ورد الشرائع",
       "clicks": 2,
-      "impressions": 116,
-      "ctr": 1.72,
+      "impressions": 112,
+      "ctr": 1.79,
       "position": 7.3
     },
     {
       "query": "محل ورد الطائف توصيل",
       "clicks": 2,
-      "impressions": 82,
-      "ctr": 2.44,
-      "position": 9.0
-    },
-    {
-      "query": "محل ورد قريب مني",
-      "clicks": 2,
-      "impressions": 854,
-      "ctr": 0.23,
-      "position": 7.0
+      "impressions": 70,
+      "ctr": 2.86,
+      "position": 9.4
     },
     {
       "query": "محل ورد هدايا",
       "clicks": 2,
-      "impressions": 15,
-      "ctr": 13.33,
-      "position": 9.9
+      "impressions": 9,
+      "ctr": 22.22,
+      "position": 11.2
     },
     {
       "query": "محلات ورد مكة",
       "clicks": 2,
-      "impressions": 130,
-      "ctr": 1.54,
-      "position": 3.8
+      "impressions": 122,
+      "ctr": 1.64,
+      "position": 3.6
     },
     {
       "query": "هدايا الطائف",
       "clicks": 2,
-      "impressions": 76,
-      "ctr": 2.63,
-      "position": 6.8
+      "impressions": 65,
+      "ctr": 3.08,
+      "position": 7.0
     },
     {
       "query": "هدايا مكه",
       "clicks": 2,
-      "impressions": 130,
-      "ctr": 1.54,
-      "position": 11.9
-    },
-    {
-      "query": "ورد بيج",
-      "clicks": 2,
-      "impressions": 167,
-      "ctr": 1.2,
-      "position": 1.0
+      "impressions": 114,
+      "ctr": 1.75,
+      "position": 11.4
     },
     {
       "query": "ورد مكة توصيل",
       "clicks": 2,
-      "impressions": 70,
-      "ctr": 2.86,
-      "position": 6.1
+      "impressions": 61,
+      "ctr": 3.28,
+      "position": 6.0
     },
     {
       "query": "felawr",
@@ -225,9 +208,9 @@
     {
       "query": "أرخص محل ورد في مكة",
       "clicks": 1,
-      "impressions": 79,
-      "ctr": 1.27,
-      "position": 2.8
+      "impressions": 76,
+      "ctr": 1.32,
+      "position": 2.6
     },
     {
       "query": "اشكال ورد هدايا",
@@ -239,9 +222,9 @@
     {
       "query": "باتشي مكة",
       "clicks": 1,
-      "impressions": 461,
-      "ctr": 0.22,
-      "position": 10.7
+      "impressions": 290,
+      "ctr": 0.34,
+      "position": 11.1
     },
     {
       "query": "باقات ورد الطايف",
@@ -253,16 +236,16 @@
     {
       "query": "باقات ورد مكة",
       "clicks": 1,
-      "impressions": 25,
-      "ctr": 4.0,
-      "position": 7.9
+      "impressions": 24,
+      "ctr": 4.17,
+      "position": 8.0
     },
     {
       "query": "باقة 50 وردة",
       "clicks": 1,
-      "impressions": 11,
-      "ctr": 9.09,
-      "position": 8.3
+      "impressions": 10,
+      "ctr": 10.0,
+      "position": 8.1
     },
     {
       "query": "باقة ورد ب 50 ريال",
@@ -274,51 +257,51 @@
     {
       "query": "باقة ورد مع شوكولاتة فيريرو روشيه",
       "clicks": 1,
-      "impressions": 24,
-      "ctr": 4.17,
-      "position": 5.8
+      "impressions": 21,
+      "ctr": 4.76,
+      "position": 5.1
     },
     {
       "query": "باقة ورد موف",
       "clicks": 1,
-      "impressions": 32,
-      "ctr": 3.12,
-      "position": 3.3
+      "impressions": 30,
+      "ctr": 3.33,
+      "position": 2.8
     },
     {
       "query": "باقة ورد هدية",
       "clicks": 1,
-      "impressions": 36,
-      "ctr": 2.78,
-      "position": 18.5
+      "impressions": 31,
+      "ctr": 3.23,
+      "position": 17.6
     },
     {
       "query": "باقة ورد وسط",
       "clicks": 1,
-      "impressions": 33,
-      "ctr": 3.03,
-      "position": 5.6
+      "impressions": 29,
+      "ctr": 3.45,
+      "position": 5.2
     },
     {
       "query": "بستاني اون لاين",
       "clicks": 1,
-      "impressions": 25,
-      "ctr": 4.0,
-      "position": 6.8
+      "impressions": 20,
+      "ctr": 5.0,
+      "position": 7.5
     },
     {
       "query": "بوكيه حلويات",
       "clicks": 1,
-      "impressions": 53,
-      "ctr": 1.89,
+      "impressions": 48,
+      "ctr": 2.08,
       "position": 1.3
     },
     {
       "query": "تنسيق ورد",
       "clicks": 1,
-      "impressions": 17,
-      "ctr": 5.88,
-      "position": 13.7
+      "impressions": 15,
+      "ctr": 6.67,
+      "position": 14.7
     },
     {
       "query": "تنسيق ورد مكة",
@@ -344,16 +327,37 @@
     {
       "query": "توصيل هدايا الطائف",
       "clicks": 1,
-      "impressions": 40,
-      "ctr": 2.5,
-      "position": 6.2
+      "impressions": 30,
+      "ctr": 3.33,
+      "position": 6.3
     },
     {
       "query": "توصيل هدايا الطايف",
       "clicks": 1,
-      "impressions": 33,
-      "ctr": 3.03,
-      "position": 5.3
+      "impressions": 30,
+      "ctr": 3.33,
+      "position": 5.5
+    },
+    {
+      "query": "توصيل هدايا مكة",
+      "clicks": 1,
+      "impressions": 86,
+      "ctr": 1.16,
+      "position": 12.0
+    },
+    {
+      "query": "توصيل هدايا مواليد",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 33.33,
+      "position": 10.7
+    },
+    {
+      "query": "جاناش الطائف",
+      "clicks": 1,
+      "impressions": 43,
+      "ctr": 2.33,
+      "position": 8.0
     }
   ]
 }

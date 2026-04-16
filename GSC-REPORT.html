@@ -18,7 +18,7 @@
         body { font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--light); color: #333; line-height: 1.8; }
         .header { background: linear-gradient(135deg, var(--primary), #5a6a8c); color: white; padding: 40px 20px; text-align: center; }
         .header h1 { font-size: 1.8em; margin-bottom: 10px; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         .card { background: var(--white); border-radius: 12px; padding: 25px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
         h2 { color: var(--primary); margin-bottom: 20px; border-bottom: 3px solid var(--accent); padding-bottom: 10px; }
         table { width: 100%; border-collapse: collapse; }
@@ -35,6 +35,14 @@
         .stat-box p { color: #666; font-size: 0.9em; }
         .table-wrapper { overflow-x: auto; }
         .update-badge { background: var(--success); color: white; padding: 8px 20px; border-radius: 20px; display: inline-block; margin-bottom: 20px; }
+        .comparison-box { background: linear-gradient(135deg, #e8f5e9, #c8e6c9); border: 2px solid var(--success); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+        .comparison-box h3 { color: var(--success); margin-bottom: 15px; }
+        .comparison-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .comp-item { background: white; padding: 15px; border-radius: 8px; text-align: center; }
+        .comp-item h4 { color: #666; font-size: 0.9em; margin-bottom: 10px; }
+        .comp-item .old { color: #999; text-decoration: line-through; font-size: 0.9em; }
+        .comp-item .new { color: var(--success); font-size: 1.5em; font-weight: bold; }
+        .comp-item .change { color: var(--success); font-size: 0.85em; margin-top: 5px; }
         .pos-good { color: var(--success); font-weight: bold; }
         .pos-medium { color: var(--warning); font-weight: bold; }
         .pos-bad { color: var(--danger); }
@@ -44,7 +52,7 @@
 <body>
     <div class="header">
         <h1>📊 Google Search Console</h1>
-        <p>gifts-flower.com - تقرير الأداء الحي</p>
+        <p>gifts-flower.com - تقرير الأداء</p>
     </div>
     <div class="container">
         <div class="nav-tabs">
@@ -61,12 +69,32 @@
         
         <a href="SEO-DASHBOARD.html" class="back-link">← العودة للوحة التحكم</a>
         
-        <span class="update-badge">✅ تم التحديث تلقائياً: 2026-04-16</span>
-        <p style="margin-bottom:20px;">البيانات: 16 مارس - 15 أبريل 2026 (28 يوم)</p>
+        <span class="update-badge">✅ تم التحديث: 2026-04-16</span>
+        
+        <div class="comparison-box">
+            <h3>📈 مقارنة الأداء (قبل → بعد)</h3>
+            <p style="margin-bottom:15px;">البيانات: 18 مارس - 14 أبريل 2026 (28 يوم)</p>
+            <div class="comparison-grid">
+                <div class="comp-item">
+                    <h4>النقرات</h4>
+                    <div class="old">144</div>
+                    <div class="new">492</div>
+                    <div class="change">+348 (+241.7%)</div>
+                </div>
+                <div class="comp-item">
+                    <h4>مرات الظهور</h4>
+                    <div class="old">10,461</div>
+                    <div class="new">48,113</div>
+                    <div class="change">+37,652 (+359.9%)</div>
+                </div>
+            </div>
+        </div>
         
         <div class="stats-grid">
-            <div class="stat-box"><h3>155</h3><p>النقرات</p></div>
-            <div class="stat-box"><h3>10,952</h3><p>الظهور</p></div>
+            <div class="stat-box"><h3>492</h3><p>النقرات</p></div>
+            <div class="stat-box"><h3>48,113</h3><p>الظهور</p></div>
+            <div class="stat-box"><h3>1.02%</h3><p>متوسط CTR</p></div>
+            <div class="stat-box"><h3>7.6</h3><p>متوسط الترتيب</p></div>
             <div class="stat-box"><h3>50</h3><p>كلمات نشطة</p></div>
         </div>
         
@@ -78,105 +106,105 @@
                     <tr>
                         <td>1</td>
                         <td><strong>فلاور</strong></td>
-                        <td>22</td>
-                        <td>2,239</td>
-                        <td>0.98%</td>
+                        <td>20</td>
+                        <td>2,161</td>
+                        <td>0.93%</td>
                         <td class="pos-medium">5.7</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td><strong>هدايا الطايف</strong></td>
-                        <td>16</td>
-                        <td>239</td>
-                        <td>6.69%</td>
-                        <td class="pos-medium">5.7</td>
+                        <td><strong>ورد مكة</strong></td>
+                        <td>15</td>
+                        <td>282</td>
+                        <td>5.32%</td>
+                        <td class="pos-good">4.8</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td><strong>ورد مكة</strong></td>
-                        <td>16</td>
-                        <td>324</td>
-                        <td>4.94%</td>
-                        <td class="pos-good">5.0</td>
+                        <td><strong>هدايا الطايف</strong></td>
+                        <td>14</td>
+                        <td>211</td>
+                        <td>6.64%</td>
+                        <td class="pos-medium">5.7</td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td><strong>متجر فلاور</strong></td>
-                        <td>9</td>
-                        <td>60</td>
-                        <td>15.00%</td>
-                        <td class="pos-good">2</td>
+                        <td>8</td>
+                        <td>56</td>
+                        <td>14.29%</td>
+                        <td class="pos-good">1.9</td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td><strong>توصيل ورد مكة</strong></td>
                         <td>6</td>
-                        <td>205</td>
-                        <td>2.93%</td>
-                        <td class="pos-medium">7.8</td>
+                        <td>195</td>
+                        <td>3.08%</td>
+                        <td class="pos-medium">7.6</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td><strong>هدايا مكة</strong></td>
-                        <td>6</td>
-                        <td>119</td>
-                        <td>5.04%</td>
-                        <td class="pos-medium">11.5</td>
+                        <td><strong>ورد مكه</strong></td>
+                        <td>5</td>
+                        <td>162</td>
+                        <td>3.09%</td>
+                        <td class="pos-medium">5.1</td>
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td><strong>ورد مكه</strong></td>
-                        <td>5</td>
-                        <td>196</td>
-                        <td>2.55%</td>
-                        <td class="pos-medium">5.3</td>
+                        <td><strong>محل ورد</strong></td>
+                        <td>4</td>
+                        <td>3,369</td>
+                        <td>0.12%</td>
+                        <td class="pos-medium">6.8</td>
                     </tr>
                     <tr>
                         <td>8</td>
-                        <td><strong>محل ورد</strong></td>
+                        <td><strong>محل ورد مكة</strong></td>
                         <td>4</td>
-                        <td>3,517</td>
-                        <td>0.11%</td>
-                        <td class="pos-medium">6.9</td>
+                        <td>392</td>
+                        <td>1.02%</td>
+                        <td class="pos-good">3.2</td>
                     </tr>
                     <tr>
                         <td>9</td>
-                        <td><strong>محل ورد مكة</strong></td>
+                        <td><strong>هدايا مكة</strong></td>
                         <td>4</td>
-                        <td>420</td>
-                        <td>0.95%</td>
-                        <td class="pos-good">3.4</td>
+                        <td>102</td>
+                        <td>3.92%</td>
+                        <td class="pos-medium">11.5</td>
                     </tr>
                     <tr>
                         <td>10</td>
-                        <td><strong>هدايا مكة توصيل فوري</strong></td>
-                        <td>4</td>
-                        <td>113</td>
-                        <td>3.54%</td>
-                        <td class="pos-medium">8.5</td>
+                        <td><strong>فلور</strong></td>
+                        <td>3</td>
+                        <td>314</td>
+                        <td>0.96%</td>
+                        <td class="pos-medium">10.5</td>
                     </tr>
                     <tr>
                         <td>11</td>
-                        <td><strong>فلور</strong></td>
+                        <td><strong>متجر هدايا</strong></td>
                         <td>3</td>
-                        <td>318</td>
-                        <td>0.94%</td>
-                        <td class="pos-medium">10.7</td>
+                        <td>62</td>
+                        <td>4.84%</td>
+                        <td class="pos-bad">16.8</td>
                     </tr>
                     <tr>
                         <td>12</td>
-                        <td><strong>متجر هدايا</strong></td>
+                        <td><strong>هدايا مكة توصيل فوري</strong></td>
                         <td>3</td>
-                        <td>65</td>
-                        <td>4.62%</td>
-                        <td class="pos-bad">17.6</td>
+                        <td>99</td>
+                        <td>3.03%</td>
+                        <td class="pos-medium">8.6</td>
                     </tr>
                     <tr>
                         <td>13</td>
                         <td><strong>ورد وقهوة</strong></td>
                         <td>3</td>
-                        <td>100</td>
-                        <td>3.00%</td>
+                        <td>96</td>
+                        <td>3.12%</td>
                         <td class="pos-medium">8.8</td>
                     </tr>
                     <tr>
@@ -191,36 +219,28 @@
                         <td>15</td>
                         <td><strong>بوكيه ورد ب ٣٠ ريال</strong></td>
                         <td>2</td>
-                        <td>36</td>
-                        <td>5.56%</td>
+                        <td>32</td>
+                        <td>6.25%</td>
                         <td class="pos-good">4.0</td>
                     </tr>
                     <tr>
                         <td>16</td>
-                        <td><strong>توصيل هدايا مكة</strong></td>
-                        <td>2</td>
-                        <td>101</td>
-                        <td>1.98%</td>
-                        <td class="pos-medium">11.4</td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
                         <td><strong>توصيل ورد</strong></td>
                         <td>2</td>
-                        <td>180</td>
-                        <td>1.11%</td>
+                        <td>177</td>
+                        <td>1.13%</td>
                         <td class="pos-medium">13.8</td>
                     </tr>
                     <tr>
-                        <td>18</td>
+                        <td>17</td>
                         <td><strong>توصيل ورد الطائف</strong></td>
                         <td>2</td>
-                        <td>89</td>
-                        <td>2.25%</td>
-                        <td class="pos-medium">7.8</td>
+                        <td>83</td>
+                        <td>2.41%</td>
+                        <td class="pos-medium">8</td>
                     </tr>
                     <tr>
-                        <td>19</td>
+                        <td>18</td>
                         <td><strong>متاجر هدايا في السعودية</strong></td>
                         <td>2</td>
                         <td>2</td>
@@ -228,12 +248,20 @@
                         <td class="pos-bad">122</td>
                     </tr>
                     <tr>
-                        <td>20</td>
+                        <td>19</td>
                         <td><strong>متجر ورد الطائف</strong></td>
                         <td>2</td>
-                        <td>32</td>
-                        <td>6.25%</td>
-                        <td class="pos-medium">8.9</td>
+                        <td>30</td>
+                        <td>6.67%</td>
+                        <td class="pos-medium">9</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td><strong>متجر ورد مكة</strong></td>
+                        <td>2</td>
+                        <td>23</td>
+                        <td>8.70%</td>
+                        <td class="pos-good">2.3</td>
                     </tr>
                 </table>
             </div>
@@ -242,10 +270,10 @@
         <div class="card">
             <h2>💡 التوصيات</h2>
             <ul>
-                <li><strong>"متجر فلاور"</strong> - الترتيب 2.0 🏆 ممتاز!</li>
-                <li><strong>"ورد مكة"</strong> - الترتيب 5.0 🎯 ممتاز!</li>
-                <li><strong>"محل ورد"</strong> - يحتاج محتوى إضافي</li>
-                <li><strong>"هدايا"</strong> - فرصة للتحسين</li>
+                <li><strong>"متجر فلاور"</strong> - الترتيب الممتاز 🎯</li>
+                <li><strong>"فلاور"</strong> - أكثر كلمة بحثية</li>
+                <li><strong>"توصيل ورد"</strong> - فرصة للتحسين</li>
+                <li>الاستمرار في تحسين المحتوى للكلمات فوق الترتيب 10</li>
             </ul>
         </div>
     </div>
